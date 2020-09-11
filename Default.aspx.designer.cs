@@ -13,23 +13,5 @@ namespace SpotifyToYoutube
 
     public partial class _Default
     {
-
-        /// <summary>
-        /// pnlConnect control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlConnect;
-
-        /// <summary>
-        /// btnConnectToSpotify control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnConnectToSpotify;
     }
 }

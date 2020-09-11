@@ -132,7 +132,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="index.html" />
     <Content Include="Javascript\server.js" />
+    <Content Include="Javascript\Youtube.js" />
     <Content Include="package.json" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Javascript\Config.js" />

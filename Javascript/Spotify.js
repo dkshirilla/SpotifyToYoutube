@@ -2,7 +2,6 @@
 var clientId;
 var clientSecret;
 var clientResponse;
-//var clientAccessToken;
 
 
 $(document).ready(function () {
@@ -65,7 +64,6 @@ function PopulatePlaylistDropdown(userId) {
 function Spotify() {
     clientId = clientIdHidden;
     clientSecret = clientSecretHidden;
-    //GetAccessTokenSpotify();
     GetClientAccessTokenSpotify();
     return false;
 }
@@ -94,7 +92,7 @@ function GetAccessTokenSpotify() {
 }
 
 function GetClientAccessTokenSpotify() {
-    window.location.href = "https://accounts.spotify.com/authorize?client_id=" + clientId + "&redirect_uri=https://localhost:44320/Default&response_type=token"
+    window.location.href = "https://accounts.spotify.com/authorize?client_id=" + clientId + "&redirect_uri=https://localhost:44320/index.html&response_type=token"
 
 }
 
